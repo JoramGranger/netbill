@@ -10,9 +10,9 @@ import { ArrowLeft, Loader2 } from 'lucide-react'
 import { toast } from 'react-hot-toast'
 
 const packages = [
-  { id: 1, name: '12 Hours', price: 1000, duration: '12 hours' },
-  { id: 2, name: '24 Hours', price: 1500, duration: '24 hours' },
-  { id: 3, name: '1 Week', price: 9000, duration: '1 week' },
+  { id: 1, name: '12 Hour Pass', price: 1000, duration: '12 hours' },
+  { id: 2, name: 'Day Pass', price: 1500, duration: '24 hours' },
+  { id: 3, name: 'Weekly Pass', price: 9000, duration: '1 week' },
 ]
 
 export default function BuyPackage() {
@@ -47,10 +47,10 @@ export default function BuyPackage() {
     <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-gray-100 to-gray-300 p-4">
       <div className="w-full max-w-2xl space-y-8 rounded-xl bg-white p-6 shadow-xl">
         <div className="flex items-center">
-          <Button variant="ghost" onClick={() => router.push('/')} className="mr-4">
+          <Button variant="ghost" onClick={() => router.push('/')} className="text-gray-500 mr-4">
             <ArrowLeft className="h-4 w-4" />
           </Button>
-          <h1 className="text-2xl font-bold text-gray-900">Choose a Package</h1>
+          <h1 className="text-2xl font-bold text-blue-900">Choose a Package</h1>
         </div>
         <div className="grid gap-4 sm:grid-cols-3">
           {packages.map((pkg) => (
