@@ -8,7 +8,7 @@ export default function Home() {
       <div className="w-full max-w-md space-y-8 rounded-xl bg-white p-6 shadow-xl">
         <div className="flex flex-col items-center space-y-2 text-center">
           <Wifi className="h-12 w-12 text-blue-500" />
-          <h1 className="text-2xl font-bold text-gray-900">Zoop</h1>
+          <h1 className="text-2xl font-bold text-gray-900">Connect Me</h1>
         </div>
         <div className="space-y-4">
           <Link href="/buy" className="w-full">
