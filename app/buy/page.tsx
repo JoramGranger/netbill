@@ -10,9 +10,11 @@ import { ArrowLeft, Loader2 } from 'lucide-react'
 import { toast } from 'react-hot-toast'
 
 const packages = [
-  { id: 1, name: '12 Hour Pass', price: 1000, duration: '12 hours' },
-  { id: 2, name: 'Day Pass', price: 1500, duration: '24 hours' },
-  { id: 3, name: 'Weekly Pass', price: 9000, duration: '1 week' },
+  { id: 1, name: '2 Hours', price: 500, duration: '2 hours' },
+  { id: 1, name: '12 Hours Pass', price: 850, duration: '12 hours' },
+  { id: 2, name: 'Day Pass', price: 1100, duration: '24 hours' },
+  { id: 3, name: 'Weekly Pass', price: 5000, duration: '1 week' },
+  { id: 3, name: 'Monthly Pass', price: 25000, duration: '1 month' },
 ]
 
 export default function BuyPackage() {
